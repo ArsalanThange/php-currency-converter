@@ -1,0 +1,21 @@
+{
+    "name": "arsalanthange/php-currency-converter",
+    "description": "A PHP library used to convert currencies.",
+    "keywords": ["php", "currency", "converter", "foreign", "exchange", "rates"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arsalan Thange",
+            "email": "arsalan.thange@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArsalanThange\\CurrencyConverter\\": "src/"
+        }
+    }
+}
